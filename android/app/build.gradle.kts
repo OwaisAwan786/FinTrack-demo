@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-    namespace = "com.fintrack.fintrack_app"
+    namespace = "com.antigravity.fintrack.fintrack"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
@@ -21,7 +21,7 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId = "com.fintrack.fintrack_app"
+        applicationId = "com.antigravity.fintrack.fintrack"
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
         minSdk = flutter.minSdkVersion

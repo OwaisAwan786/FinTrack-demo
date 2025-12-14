@@ -1,6 +1,6 @@
 {
-    "name": "fintrack_app",
-    "short_name": "fintrack_app",
+    "name": "fintrack",
+    "short_name": "fintrack",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

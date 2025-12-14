@@ -1,4 +1,4 @@
-# fintrack_app
+# fintrack
 
 A new Flutter project.
 

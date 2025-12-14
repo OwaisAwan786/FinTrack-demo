@@ -1,4 +1,4 @@
-name: fintrack_app
+name: fintrack
 description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -35,11 +35,12 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
   provider: ^6.1.5+1
-  go_router: ^17.0.1
-  google_fonts: ^6.3.3
-  lucide_icons: ^0.257.0
   intl: ^0.20.2
+  google_fonts: ^6.3.3
+  font_awesome_flutter: ^10.12.0
   fl_chart: ^1.1.1
+  firebase_core: ^4.2.1
+  firebase_auth: ^6.1.2
 
 dev_dependencies:
   flutter_test:

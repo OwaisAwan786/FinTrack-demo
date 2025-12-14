@@ -89,13 +89,13 @@ BEGIN
     BEGIN
         BLOCK "040904e4"
         BEGIN
-            VALUE "CompanyName", "com.fintrack" "\0"
-            VALUE "FileDescription", "fintrack_app" "\0"
+            VALUE "CompanyName", "com.antigravity.fintrack" "\0"
+            VALUE "FileDescription", "fintrack" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "fintrack_app" "\0"
-            VALUE "LegalCopyright", "Copyright (C) 2025 com.fintrack. All rights reserved." "\0"
-            VALUE "OriginalFilename", "fintrack_app.exe" "\0"
-            VALUE "ProductName", "fintrack_app" "\0"
+            VALUE "InternalName", "fintrack" "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2025 com.antigravity.fintrack. All rights reserved." "\0"
+            VALUE "OriginalFilename", "fintrack.exe" "\0"
+            VALUE "ProductName", "fintrack" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

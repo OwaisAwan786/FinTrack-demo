@@ -1,0 +1,182 @@
+Analyzing fintrack-web...                                       
+
+   info - The private field _transactions could be 'final' - lib\providers\fintrack_provider.dart:7:21 - prefer_final_fields
+   info - The private field _budget could be 'final' - lib\providers\fintrack_provider.dart:14:10 - prefer_final_fields
+   info - The private field _goals could be 'final' - lib\providers\fintrack_provider.dart:15:14 - prefer_final_fields
+   info - The private field _notifications could be 'final' - lib\providers\fintrack_provider.dart:19:25 - prefer_final_fields
+warning - Unused import: 'package:flutter/material.dart' - lib\router.dart:1:8 - unused_import
+warning - The value of the local variable 'bgColor' isn't used - lib\screens\advisor_screen.dart:89:36 - unused_local_variable
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\advisor_screen.dart:91:110 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\advisor_screen.dart:92:93 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\advisor_screen.dart:93:113 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\advisor_screen.dart:94:106 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\advisor_screen.dart:106:99 - deprecated_member_use
+  error - The class '_DashboardScreenState' doesn't have an unnamed constructor - lib\screens\dashboard_screen.dart:17:43 - new_with_undefined_constructor_default
+warning - The value of the field '_isSimulating' isn't used - lib\screens\dashboard_screen.dart:22:8 - unused_field
+warning - The declaration '_handleSimulatePurchase' isn't referenced - lib\screens\dashboard_screen.dart:24:8 - unused_element
+  error - Expected to find ';' - lib\screens\dashboard_screen.dart:28:30 - expected_token
+  error - 1 positional argument expected by 'addTransaction', but 0 found - lib\screens\dashboard_screen.dart:40:5 - not_enough_positional_arguments
+  error - Expected to find ')' - lib\screens\dashboard_screen.dart:40:5 - expected_token
+  error - Methods can't be invoked in constant expressions - lib\screens\dashboard_screen.dart:58:27 - const_eval_method_invocation
+  error - The named parameter 'style' isn't defined - lib\screens\dashboard_screen.dart:58:49 - undefined_named_parameter
+  error - Methods can't be invoked in constant expressions - lib\screens\dashboard_screen.dart:69:27 - const_eval_method_invocation
+  error - The named parameter 'style' isn't defined - lib\screens\dashboard_screen.dart:71:29 - undefined_named_parameter
+  error - The named parameter 'style' isn't defined - lib\screens\dashboard_screen.dart:78:78 - undefined_named_parameter
+  error - The named parameter 'color' isn't defined - lib\screens\dashboard_screen.dart:87:105 - undefined_named_parameter
+  error - The named parameter 'style' isn't defined - lib\screens\dashboard_screen.dart:88:91 - undefined_named_parameter
+  error - Expected to find ';' - lib\screens\dashboard_screen.dart:98:39 - expected_token
+warning - Dead code - lib\screens\dashboard_screen.dart:99:36 - dead_code
+  error - Expected an identifier - lib\screens\dashboard_screen.dart:99:36 - missing_identifier
+  error - Expected to find ')' - lib\screens\dashboard_screen.dart:99:36 - expected_token
+  error - Expected to find ']' - lib\screens\dashboard_screen.dart:99:36 - expected_token
+  error - Expected a class member - lib\screens\dashboard_screen.dart:110:32 - expected_class_member
+   info - An uninitialized field should have an explicit type annotation - lib\screens\dashboard_screen.dart:111:31 - prefer_typing_uninitialized_variables
+  error - Expected to find ';' - lib\screens\dashboard_screen.dart:111:31 - expected_token
+  error - Variables must be declared using the keywords 'const', 'final', 'var' or a type name - lib\screens\dashboard_screen.dart:111:31 - missing_const_final_var_or_type
+  error - Expected a class member - lib\screens\dashboard_screen.dart:111:35 - expected_class_member
+  error - Getters, setters and methods can't be declared to be 'const' - lib\screens\dashboard_screen.dart:111:37 - const_method
+   info - The variable name 'Icon' isn't a lowerCamelCase identifier - lib\screens\dashboard_screen.dart:111:43 - non_constant_identifier_names
+  error - LucideIcons.plus isn't a type - lib\screens\dashboard_screen.dart:111:48 - not_a_type
+  error - Expected an identifier - lib\screens\dashboard_screen.dart:111:64 - missing_identifier
+  error - Named parameters must be enclosed in curly braces ('{' and '}') - lib\screens\dashboard_screen.dart:111:70 - named_parameter_outside_group
+  error - Using a colon as the separator before a default value is no longer supported - lib\screens\dashboard_screen.dart:111:70 - obsolete_colon_for_default_value
+  error - A function body must be provided - lib\screens\dashboard_screen.dart:111:75 - missing_function_body
+  error - Expected a class member - lib\screens\dashboard_screen.dart:111:75 - expected_class_member
+   info - An uninitialized field should have an explicit type annotation - lib\screens\dashboard_screen.dart:112:31 - prefer_typing_uninitialized_variables
+  error - Expected to find ';' - lib\screens\dashboard_screen.dart:112:31 - expected_token
+  error - Variables must be declared using the keywords 'const', 'final', 'var' or a type name - lib\screens\dashboard_screen.dart:112:31 - missing_const_final_var_or_type
+  error - Expected a class member - lib\screens\dashboard_screen.dart:112:36 - expected_class_member
+   info - The variable name 'Text' isn't a lowerCamelCase identifier - lib\screens\dashboard_screen.dart:112:38 - non_constant_identifier_names
+   info - The local variable '_isSimulating' starts with an underscore - lib\screens\dashboard_screen.dart:112:43 - no_leading_underscores_for_local_identifiers
+  error - Expected to find ')' - lib\screens\dashboard_screen.dart:112:57 - expected_token
+  error - A function body must be provided - lib\screens\dashboard_screen.dart:112:104 - missing_function_body
+  error - Expected a class member - lib\screens\dashboard_screen.dart:112:104 - expected_class_member
+   info - An uninitialized field should have an explicit type annotation - lib\screens\dashboard_screen.dart:113:31 - prefer_typing_uninitialized_variables
+  error - Expected to find ';' - lib\screens\dashboard_screen.dart:113:31 - expected_token
+  error - Variables must be declared using the keywords 'const', 'final', 'var' or a type name - lib\screens\dashboard_screen.dart:113:31 - missing_const_final_var_or_type
+  error - Expected a class member - lib\screens\dashboard_screen.dart:113:36 - expected_class_member
+  error - The name of a constructor must match the name of the enclosing class - lib\screens\dashboard_screen.dart:113:38 - invalid_constructor_name
+warning - The declaration '_DashboardScreenState.styleFrom' isn't referenced - lib\screens\dashboard_screen.dart:113:53 - unused_element
+warning - A value for optional parameter 'backgroundColor' isn't ever given - lib\screens\dashboard_screen.dart:114:33 - unused_element_parameter
+  error - Named parameters must be enclosed in curly braces ('{' and '}') - lib\screens\dashboard_screen.dart:114:48 - named_parameter_outside_group
+  error - Using a colon as the separator before a default value is no longer supported - lib\screens\dashboard_screen.dart:114:48 - obsolete_colon_for_default_value
+warning - A value for optional parameter 'foregroundColor' isn't ever given - lib\screens\dashboard_screen.dart:115:33 - unused_element_parameter
+  error - Named parameters must be enclosed in curly braces ('{' and '}') - lib\screens\dashboard_screen.dart:115:48 - named_parameter_outside_group
+  error - Using a colon as the separator before a default value is no longer supported - lib\screens\dashboard_screen.dart:115:48 - obsolete_colon_for_default_value
+warning - A value for optional parameter 'shape' isn't ever given - lib\screens\dashboard_screen.dart:116:33 - unused_element_parameter
+  error - Named parameters must be enclosed in curly braces ('{' and '}') - lib\screens\dashboard_screen.dart:116:38 - named_parameter_outside_group
+  error - Using a colon as the separator before a default value is no longer supported - lib\screens\dashboard_screen.dart:116:38 - obsolete_colon_for_default_value
+  error - The default value of an optional parameter must be constant - lib\screens\dashboard_screen.dart:116:40 - non_constant_default_value
+   info - Empty constructor bodies should be written using a ';' rather than '{}' - lib\screens\dashboard_screen.dart:117:32 - empty_constructor_bodies
+  error - A function body must be provided - lib\screens\dashboard_screen.dart:117:32 - missing_function_body
+  error - Expected a class member - lib\screens\dashboard_screen.dart:117:32 - expected_class_member
+  error - Expected a class member - lib\screens\dashboard_screen.dart:118:29 - expected_class_member
+  error - Expected a class member - lib\screens\dashboard_screen.dart:118:30 - expected_class_member
+  error - Expected a class member - lib\screens\dashboard_screen.dart:119:27 - expected_class_member
+  error - Expected a class member - lib\screens\dashboard_screen.dart:119:28 - expected_class_member
+  error - Expected a class member - lib\screens\dashboard_screen.dart:120:25 - expected_class_member
+  error - Expected a class member - lib\screens\dashboard_screen.dart:120:26 - expected_class_member
+  error - Expected a class member - lib\screens\dashboard_screen.dart:121:23 - expected_class_member
+  error - Expected a class member - lib\screens\dashboard_screen.dart:121:24 - expected_class_member
+  error - Expected a class member - lib\screens\dashboard_screen.dart:122:21 - expected_class_member
+  error - Expected a class member - lib\screens\dashboard_screen.dart:122:22 - expected_class_member
+  error - Expected a class member - lib\screens\dashboard_screen.dart:123:19 - expected_class_member
+  error - Expected a class member - lib\screens\dashboard_screen.dart:123:20 - expected_class_member
+  error - Expected a class member - lib\screens\dashboard_screen.dart:124:19 - expected_class_member
+  error - Expected a class member - lib\screens\dashboard_screen.dart:124:20 - expected_class_member
+  error - Expected a class member - lib\screens\dashboard_screen.dart:125:17 - expected_class_member
+  error - Expected a class member - lib\screens\dashboard_screen.dart:125:18 - expected_class_member
+  error - Expected a class member - lib\screens\dashboard_screen.dart:126:15 - expected_class_member
+  error - Expected a class member - lib\screens\dashboard_screen.dart:126:16 - expected_class_member
+  error - Methods must have an explicit list of parameters - lib\screens\dashboard_screen.dart:127:15 - missing_method_parameters
+  error - The name of a constructor must match the name of the enclosing class - lib\screens\dashboard_screen.dart:127:15 - invalid_constructor_name
+warning - The declaration '_DashboardScreenState.vLg' isn't referenced - lib\screens\dashboard_screen.dart:127:26 - unused_element
+   info - Empty constructor bodies should be written using a ';' rather than '{}' - lib\screens\dashboard_screen.dart:127:29 - empty_constructor_bodies
+  error - A function body must be provided - lib\screens\dashboard_screen.dart:127:29 - missing_function_body
+  error - Expected a class member - lib\screens\dashboard_screen.dart:127:29 - expected_class_member
+   info - The variable name 'LayoutBuilder' isn't a lowerCamelCase identifier - lib\screens\dashboard_screen.dart:130:15 - non_constant_identifier_names
+  error - Named parameters must be enclosed in curly braces ('{' and '}') - lib\screens\dashboard_screen.dart:130:36 - named_parameter_outside_group
+  error - Using a colon as the separator before a default value is no longer supported - lib\screens\dashboard_screen.dart:130:36 - obsolete_colon_for_default_value
+  error - The default value of an optional parameter must be constant - lib\screens\dashboard_screen.dart:130:38 - non_constant_default_value
+  error - Undefined name 'provider' - lib\screens\dashboard_screen.dart:140:74 - undefined_identifier
+  error - Undefined name 'provider' - lib\screens\dashboard_screen.dart:150:74 - undefined_identifier
+  error - Undefined name 'provider' - lib\screens\dashboard_screen.dart:158:74 - undefined_identifier
+  error - A function body must be provided - lib\screens\dashboard_screen.dart:162:17 - missing_function_body
+  error - Expected a class member - lib\screens\dashboard_screen.dart:162:17 - expected_class_member
+  error - Methods must have an explicit list of parameters - lib\screens\dashboard_screen.dart:163:15 - missing_method_parameters
+  error - The name of a constructor must match the name of the enclosing class - lib\screens\dashboard_screen.dart:163:15 - invalid_constructor_name
+warning - The declaration '_DashboardScreenState.vLg' isn't referenced - lib\screens\dashboard_screen.dart:163:26 - unused_element
+   info - Empty constructor bodies should be written using a ';' rather than '{}' - lib\screens\dashboard_screen.dart:163:29 - empty_constructor_bodies
+  error - A function body must be provided - lib\screens\dashboard_screen.dart:163:29 - missing_function_body
+  error - Expected a class member - lib\screens\dashboard_screen.dart:163:29 - expected_class_member
+   info - The variable name 'LayoutBuilder' isn't a lowerCamelCase identifier - lib\screens\dashboard_screen.dart:166:15 - non_constant_identifier_names
+  error - The name 'LayoutBuilder' is already defined - lib\screens\dashboard_screen.dart:166:15 - duplicate_definition
+  error - Named parameters must be enclosed in curly braces ('{' and '}') - lib\screens\dashboard_screen.dart:166:36 - named_parameter_outside_group
+  error - Using a colon as the separator before a default value is no longer supported - lib\screens\dashboard_screen.dart:166:36 - obsolete_colon_for_default_value
+  error - The default value of an optional parameter must be constant - lib\screens\dashboard_screen.dart:166:38 - non_constant_default_value
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\dashboard_screen.dart:181:68 - deprecated_member_use
+  error - Methods can't be invoked in constant expressions - lib\screens\dashboard_screen.dart:189:41 - const_eval_method_invocation
+  error - The named parameter 'color' isn't defined - lib\screens\dashboard_screen.dart:189:80 - undefined_named_parameter
+  error - The named parameter 'style' isn't defined - lib\screens\dashboard_screen.dart:191:83 - undefined_named_parameter
+  error - Undefined name 'provider' - lib\screens\dashboard_screen.dart:197:63 - undefined_identifier
+  error - The name 'Text' isn't a class - lib\screens\dashboard_screen.dart:212:45 - creation_with_non_type
+  error - The name 'Text' isn't a class - lib\screens\dashboard_screen.dart:217:49 - creation_with_non_type
+  error - Undefined name 'provider' - lib\screens\dashboard_screen.dart:219:74 - undefined_identifier
+  error - Undefined name 'provider' - lib\screens\dashboard_screen.dart:219:131 - undefined_identifier
+  error - The named parameter 'style' isn't defined - lib\screens\dashboard_screen.dart:220:45 - undefined_named_parameter
+  error - Undefined name 'provider' - lib\screens\dashboard_screen.dart:226:49 - undefined_identifier
+  error - Undefined name 'provider' - lib\screens\dashboard_screen.dart:226:76 - undefined_identifier
+  error - Undefined name 'provider' - lib\screens\dashboard_screen.dart:234:60 - undefined_identifier
+  error - Undefined name 'provider' - lib\screens\dashboard_screen.dart:234:87 - undefined_identifier
+  error - The named parameter 'style' isn't defined - lib\screens\dashboard_screen.dart:235:41 - undefined_named_parameter
+  error - The name 'Text' isn't a class - lib\screens\dashboard_screen.dart:247:45 - creation_with_non_type
+  error - The name 'Text' isn't a class - lib\screens\dashboard_screen.dart:249:45 - creation_with_non_type
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\dashboard_screen.dart:267:68 - deprecated_member_use
+  error - Methods can't be invoked in constant expressions - lib\screens\dashboard_screen.dart:274:41 - const_eval_method_invocation
+  error - The named parameter 'color' isn't defined - lib\screens\dashboard_screen.dart:274:80 - undefined_named_parameter
+  error - The named parameter 'style' isn't defined - lib\screens\dashboard_screen.dart:276:83 - undefined_named_parameter
+  error - Undefined name 'provider' - lib\screens\dashboard_screen.dart:282:63 - undefined_identifier
+  error - The name 'Text' isn't a class - lib\screens\dashboard_screen.dart:291:45 - creation_with_non_type
+  error - The name 'Text' isn't a class - lib\screens\dashboard_screen.dart:296:49 - creation_with_non_type
+  error - Undefined name 'provider' - lib\screens\dashboard_screen.dart:298:74 - undefined_identifier
+  error - Undefined name 'provider' - lib\screens\dashboard_screen.dart:298:131 - undefined_identifier
+  error - The named parameter 'style' isn't defined - lib\screens\dashboard_screen.dart:299:45 - undefined_named_parameter
+  error - Undefined name 'provider' - lib\screens\dashboard_screen.dart:305:49 - undefined_identifier
+  error - Undefined name 'provider' - lib\screens\dashboard_screen.dart:305:76 - undefined_identifier
+  error - Undefined name 'provider' - lib\screens\dashboard_screen.dart:313:60 - undefined_identifier
+  error - Undefined name 'provider' - lib\screens\dashboard_screen.dart:313:87 - undefined_identifier
+  error - The named parameter 'style' isn't defined - lib\screens\dashboard_screen.dart:314:41 - undefined_named_parameter
+  error - A function body must be provided - lib\screens\dashboard_screen.dart:321:17 - missing_function_body
+  error - Expected a class member - lib\screens\dashboard_screen.dart:321:17 - expected_class_member
+  error - Expected a class member - lib\screens\dashboard_screen.dart:322:13 - expected_class_member
+  error - Expected a class member - lib\screens\dashboard_screen.dart:322:14 - expected_class_member
+  error - Expected a class member - lib\screens\dashboard_screen.dart:323:11 - expected_class_member
+  error - Expected a class member - lib\screens\dashboard_screen.dart:323:12 - expected_class_member
+  error - Expected a class member - lib\screens\dashboard_screen.dart:324:9 - expected_class_member
+  error - Expected a class member - lib\screens\dashboard_screen.dart:324:10 - expected_class_member
+  error - Expected a method, getter, setter or operator declaration - lib\screens\dashboard_screen.dart:325:8 - expected_executable
+  error - Expected a method, getter, setter or operator declaration - lib\screens\dashboard_screen.dart:326:5 - expected_executable
+  error - Unexpected text ';' - lib\screens\dashboard_screen.dart:326:6 - unexpected_token
+  error - Expected a method, getter, setter or operator declaration - lib\screens\dashboard_screen.dart:327:3 - expected_executable
+  error - Expected a method, getter, setter or operator declaration - lib\screens\dashboard_screen.dart:328:1 - expected_executable
+warning - Unused import: 'package:fintrack_app/core/models/models.dart' - lib\screens\goals_screen.dart:4:8 - unused_import
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\goals_screen.dart:250:122 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\goals_screen.dart:259:79 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\goals_screen.dart:259:185 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\widgets\add_transaction_form.dart:49:62 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\widgets\add_transaction_form.dart:52:71 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\widgets\glass_panel.dart:30:45 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\widgets\glass_panel.dart:33:37 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\widgets\glass_panel.dart:38:39 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\widgets\mobile_navbar.dart:41:47 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\widgets\responsive_shell.dart:30:38 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\widgets\responsive_shell.dart:52:49 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\widgets\savings_pocket_widget.dart:51:45 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\widgets\savings_pocket_widget.dart:59:56 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\widgets\savings_pocket_widget.dart:61:75 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\widgets\sidebar.dart:86:44 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\widgets\sidebar.dart:87:44 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\widgets\sidebar.dart:126:49 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\widgets\transaction_list.dart:91:60 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\widgets\transaction_list.dart:91:102 - deprecated_member_use
+
